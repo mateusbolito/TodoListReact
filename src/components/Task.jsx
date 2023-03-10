@@ -34,7 +34,7 @@ export function Tasks({tasks, onDelete, onComplete}){
                     <Tarefa key={task.id} task={task}  onDelete={onDelete} onComplete={onComplete} />
                 ))}
                 {tasks.length <= 0 && (
-                    <section  className={styles.empty}>
+                    <section  className={styles.emptygit}>
                        <img src={Clipboard} /> 
                        <div>
                         <p>Voce aind anao tem tarefas cadastradas</p>
